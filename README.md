@@ -8,3 +8,8 @@ This is a simple **HTML Bio Page** project. It includes basic personal details, 
 - Profile image
 - Contact links or basic information
 
+#Languages used
+
+-HTML
+-CSS
+
