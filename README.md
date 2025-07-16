@@ -1,15 +1,24 @@
-Bio-Page
+Welcome to my Personal Bio-Page repository!
+This is a simple, clean, and responsive webpage to introduce myself and share a bit about my interests, background, and how to connect with me.
 
-This is a simple **HTML Bio Page** project. It includes basic personal details, a profile picture, and styled content using CSS.
+📄 About
+This webpage highlights:
 
-🔍 Features
+👩‍💻 My background as an incoming B.Tech Computer Science (AI & ML) student at Newton School of Technology.
 
-- Name and short introduction
-- Profile image
-- Contact links or basic information
+🤖 My passion for technology, coding, AI, and robotics.
 
-#Languages used
+🎉 My interests in reading, dancing, and exercising.
 
--HTML
--CSS
+🛠️ Technologies Used
+HTML5
+
+CSS3
+
+📬 Connect with Me
+✉️ Email: maddikasirireddy@gmail.com
+
+📸 Instagram: _.sirii1
+
+
 
