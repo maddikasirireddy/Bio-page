@@ -1,8 +1,8 @@
 Welcome to my Personal Bio-Page repository!
 This is a simple, clean, and responsive webpage to introduce myself and share a bit about my interests, background, and how to connect with me.
 
-📄 *About*
-This webpage highlights:
+📄 *About
+This webpage highlights*:
 
    👩‍💻 My background as an incoming B.Tech Computer Science (AI & ML) student at Newton School of Technology.
 
@@ -10,7 +10,7 @@ This webpage highlights:
 
    🎉 My interests in reading, dancing, and exercising.
 
-🛠️ *Technologies Used*
+🛠️ *Languages Used*
 
    -HTML
 
