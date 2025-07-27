@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,49 +11,101 @@
             text-align: center;
             background: #afadad;
         }
-        .bio-container{
+
+        .bio-container {
             background: white;
             height: 580px;
-            
+            animation: background-change 10s infinite alternate;
+            max-width: 1600px;
+            margin: 1px auto;
+
         }
-        .bio-container p{
+
+        .bio-container p {
             margin-bottom: 1em;
-            
+
         }
-        .interests{
+
+        .interests {
             position: absolute;
             top: 400px;
             left: 41%;
 
         }
-        
-        h1{
+
+        h1 {
             color: #333;
         }
-        p{
+
+        p {
             color: #2e2b2b
-            
         }
-        a{
-            text-decoration:underline;
+
+        a {
+            text-decoration: underline;
             color: #007bff
         }
-        a:hover{
+
+        a:hover {
             color: darkblue;
         }
-        a:visited{
+
+        a:visited {
             color: purple;
         }
-        .profile-pic{
+
+        .profile-pic {
             width: 125px;
             height: 150px;
             border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        
-        
+
+        @keyframes color-change {
+            0% {
+                color: rgb(10, 3, 50);
+            }
+
+            25% {
+                color: rgb(255, 0, 0);
+            }
+
+            50% {
+                color: rgb(0, 255, 0);
+            }
+
+            75% {
+                color: rgb(0, 0, 255);
+            }
+
+            100% {
+                color: rgb(255, 165, 0);
+            }
+        }
+        @keyframes background-change {
+            0% {
+                background-color: rgb(10, 3, 50);
+            }
+
+            25% {
+                background-color: rgb(255, 0, 0);
+            }
+
+            50% {
+                background-color: rgb(0, 255, 0);
+            }
+
+            75% {
+                background-color: rgb(0, 0, 255);
+            }
+
+            100% {
+                background-color: rgb(255, 165, 0);
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="bio-container">
 
@@ -64,7 +117,7 @@
         <p class="interests"><strong>Interests:</strong>Reading, Dancing, Exercising</p>
     </div>
     <div id="Connect">
-    
+
 
         <h2>Connect with me</h2>
         <p><b>Email:</b>maddikasirireddy@gmail.com</p>
@@ -73,4 +126,5 @@
 
 
 </body>
+
 </html>
