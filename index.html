@@ -14,11 +14,11 @@
 
         .bio-container {
             color: white;
-            height: 550px;
+            min-height: 550px;
             max-width: 1600px;
             margin: 1px auto;
             padding: 6px 20px;
-            background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+            background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #c1acf1);
             background-size: 400% 400%;
             background-position: 0% 50%;
             animation: gradient-animation 10s ease infinite;
@@ -65,7 +65,17 @@
             border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        
+        .resume-button{
+            margin: 15px;
+            padding: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+
         @keyframes gradient-animation {
             0% {
                 background-position: 0% 50%;
@@ -97,7 +107,10 @@
 
         <h2>Connect with me</h2>
         <p><b>Email:</b>maddikasirireddy@gmail.com</p>
-        <a href="https://www.instagram.com/_.sirii1/" target="_blank">instagram</a>
+        <a href="https://www.instagram.com/_.sirii1/" target="_blank">Instagram</a><br>
+        <button class="resume-button" onclick="window.location.href='Bio-page pdf.pdf'">
+            Download Resume
+        </button>
     </div>
 
 
