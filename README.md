@@ -12,9 +12,9 @@ This webpage highlights*:
 
 🛠️ *Languages Used*
 
-   -HTML
+   <ul><li>HTML</li>
 
-   -CSS3
+   <li>CSS</li>
 
 📬 *Connect with Me*
 
